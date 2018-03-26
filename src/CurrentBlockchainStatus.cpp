@@ -22,8 +22,8 @@ namespace xmreg
 
 // initialize static variables
 atomic<uint64_t>        CurrentBlockchainStatus::current_height{0};
-string                  CurrentBlockchainStatus::blockchain_path{"/home/mwo/.blockchain/lmdb"};
-string                  CurrentBlockchainStatus::deamon_url{"http:://127.0.0.1:18081"};
+string                  CurrentBlockchainStatus::blockchain_path{"/home/yli1990/.aeon/lmdb"};
+string                  CurrentBlockchainStatus::deamon_url{"http:://127.0.0.1:11181"};
 network_type            CurrentBlockchainStatus::net_type {network_type::MAINNET};
 bool                    CurrentBlockchainStatus::do_not_relay{false};
 bool                    CurrentBlockchainStatus::is_running{false};
@@ -176,7 +176,7 @@ CurrentBlockchainStatus::is_tx_spendtime_unlocked(
         // XXX: this needs to be fast, so we'd need to get the starting heights
         // from the daemon to be correct once voting kicks in
 
-        uint64_t v2height = net_type == TESTNET ? 624634 : net_type == STAGENET ? (uint64_t)-1/*TODO*/ : 1009827;
+        uint64_t v2height = net_type == TESTNET ? 624634 : net_type == STAGENET ? (uint64_t)-1/*TODO*/ : 592000;
 
         uint64_t leeway = block_height < v2height
                           ? CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_SECONDS_V1

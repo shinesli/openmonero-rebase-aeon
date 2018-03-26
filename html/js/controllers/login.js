@@ -47,8 +47,8 @@ thinwalletCtrls.controller("LoginCtrl", function($scope, $location, AccountServi
         $scope.mnemonic = "eluded extra boyfriend gels hiding waxing feline unbending drying pancakes dwindling fuming friendly pamphlet myth tepid snug budget android vogue losing each affair afraid affair";
     } else {
         $scope.decode = false;
-        $scope.address = "44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A";
-        $scope.view_key = "f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501" ;
+        $scope.address = "Wmss5NN6mG5hU9kL43d3KwSvAGk4rBdNj98D6johrSMjbegDUHrSqtnaxDYstefPoiNq1MXUCBS2rdd69MJKBTHn25K56fq31";
+        $scope.view_key = "3b0db2c5b26170e759a3c1ceb3a40bffe65d8b745207a4b8073fa603fdf4ff01" ;
     }
 
 

@@ -3,7 +3,7 @@ var config = {
     mainnetExplorerUrl: "https://xmrchain.com/",
     testnetExplorerUrl: "https://testnet.xmrchain.com/",
     stagenetExplorerUrl: "http://162.210.173.150:8083/",
-    nettype: 2, /* 0 - MAINNET, 1 - TESTNET, 2 - STAGENET */
+    nettype: 0, /* 0 - MAINNET, 1 - TESTNET, 2 - STAGENET */
     coinUnitPlaces: 12,
     txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
     txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
@@ -11,9 +11,9 @@ var config = {
     openAliasPrefix: "xmr",
     coinName: 'Monero',
     coinUriPrefix: 'monero:',
-    addressPrefix: 18,
-    integratedAddressPrefix: 19,
-    subAddressPrefix: 42,
+    addressPrefix: 0xB2,
+    integratedAddressPrefix: 0x2733,
+    subAddressPrefix: 0x06B8,
     addressPrefixTestnet: 53,
     integratedAddressPrefixTestnet: 54,
     subAddressPrefixTestnet: 63,
@@ -28,7 +28,7 @@ var config = {
     idleTimeout: 30,
     idleWarningDuration: 20,
     maxBlockNumber: 500000000,
-    avgBlockTime: 120,
+    avgBlockTime: 240,
     debugMode: false
 };
 

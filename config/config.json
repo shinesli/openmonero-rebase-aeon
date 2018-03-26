@@ -2,14 +2,14 @@
   "daemon-url" :
   {
     "_comment" : "RPC urls to monero deamon",
-    "mainnet"  : "http://127.0.0.1:18081",
-    "testnet"  : "http://127.0.0.1:28081",
-    "stagenet" : "http://127.0.0.1:38081"
+    "mainnet"  : "http://127.0.0.1:11181",
+    "testnet"  : "http://127.0.0.1:21181",
+    "stagenet" : "http://127.0.0.1:31181"
   },
   "blockchain-path" :
   {
     "_comment" : "if paths are empty, default Monero paths will be used",
-    "mainnet"  : "",
+    "mainnet"  : "~/.aeon/",
     "testnet"  : "",
     "stagenet" : ""
   },
@@ -34,8 +34,8 @@
     "mainnet" :
     {
       "_comment": "these are official monero project donation address and viewkey. change it to yours",
-      "address" : "44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A",
-      "viewkey" : "f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501"
+      "address" : "Wmss5NN6mG5hU9kL43d3KwSvAGk4rBdNj98D6johrSMjbegDUHrSqtnaxDYstefPoiNq1MXUCBS2rdd69MJKBTHn25K56fq31",
+      "viewkey" : "3b0db2c5b26170e759a3c1ceb3a40bffe65d8b745207a4b8073fa603fdf4ff01"
     },
     "stagenet" :
     {
